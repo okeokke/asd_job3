@@ -68,22 +68,25 @@ Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
 ---
 
 ## Percobaan 1  
-  
+[**Mahasiswa07.java**](/asd_job3/Praktikum03/Mahasiswa07.java)  
+[**MahasiswaDemo07.java**](/asd_job3/Praktikum03/MahasiswaDemo07.java)  
+Screenshot Initial [MahasiswaDemo07.java](/asd_job3/Praktikum03/MahasiswaDemo07.java)  
+![Percobaan 1](P1.png)
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method? Jelaskan!  
 2. Apa yang dilakukan oleh kode program berikut?
 ```java
-Mahasiswa[] arrayOfMahasiswa = new Mahasiswa[3];
+Mahasiswa07[] arrayOfMahasiswa = new Mahasiswa07[3];
 ```  
 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan konstruktur pada baris program berikut?
 ```java
-arrayOfMahasiswa[0] = new Mahasiswa();
+arrayOfMahasiswa[0] = new Mahasiswa07();
 ```  
 4. Apa yang dilakukan oleh kode program berikut?`
 ```java
-arrayofMahasiswa[0] = new Mahasiswa ();
+arrayofMahasiswa[0] = new Mahasiswa07();
 arrayOfMahasiswa[0].nim = "244107060033";
 arrayOfMahasiswa[0].nama = "AGNES TITANIA KINANTI";
 arrayOfMahasiswa[0].kelas = "SIB-1E";
@@ -94,7 +97,15 @@ arrayOfMahasiswa[0].ipk = (float) 3.75;
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
-  
+1. Tidak perlu, class/object kosong pun tetap bisa dibuat array-nya, tetap bisa di-instansiasi, dan tetap valid.  
+Tetapi secara konsep/desain, objek adalah representasi entitas, dan lebih baik memiliki atribut, dan method yang opsional.  
+2. Kode tersebut membuat sebuah array dengan length 3, dengan tipe data berupa objek yaitu Mahasiswa tetapi belum ada isinya.  
+3. Jika dalam sebuah class tidak dibuat constructor apapun, java akan membuat default constructor tanpa parameter secara otomatis. Tetapi jika ada constructor sendiri dengan parameter dan tidak ada constructor kosongan, `new Mahasiswa07()` akan error.  
+4. Kode membuat object baru `Mahasiswa07` yang disimpan ke indeks 0 array lalu setiap atribut pada objek `Mahasiswa07` di array indeks tersebut di-isi. Jika tidak ada `arrayOfMahasiswa [0] = new Mahasiswa07();`, akan error `NullPointerException`, karena array indeks 0 masih belum diisi objek.
+5. Objek/Class `Mahasiswa07` berfungsi sebagai entitas/data dengan atribut dan atau method, sedangkan `MahasiswaDemo07` berfungsi sebagai penjalan program atau fungsi mainnya. Pemisahan dilakukan agar kode lebih rapi dan modular.
+
+
+
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
