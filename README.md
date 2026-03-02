@@ -68,9 +68,9 @@ Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
 ---
 
 ## Percobaan 1  
-[Initial **Mahasiswa07.java** (commit cea5051)](https://github.com/okeokke/asd_job3/commit/cea50512fd86e8bedde2384bb6328355379badca#diff-29d1b4e5fcd676953cf9c53de331d1942f0ea9cb5e1b3d4f6770f16f7c75a92a)  
-[Initial **MahasiswaDemo07.java** (commit cea5051)](https://github.com/okeokke/asd_job3/commit/cea50512fd86e8bedde2384bb6328355379badca#diff-37416071177498513c50d625de07df3a301192adc1a57e3ef30e306f720d81ef)  
-Screenshot Initial [MahasiswaDemo07.java (commit cea5051)](https://github.com/okeokke/asd_job3/commit/cea50512fd86e8bedde2384bb6328355379badca#diff-37416071177498513c50d625de07df3a301192adc1a57e3ef30e306f720d81ef)  
+[Initial **Mahasiswa07.java** (commit cea5051)](https://github.com/okeokke/asd_job3/blob/cea50512fd86e8bedde2384bb6328355379badca/Praktikum03/Mahasiswa07.java)  
+[Initial **MahasiswaDemo07.java** (commit cea5051)](https://github.com/okeokke/asd_job3/blob/cea50512fd86e8bedde2384bb6328355379badca/Praktikum03/MahasiswaDemo07.java)  
+Screenshot Initial [MahasiswaDemo07.java (commit cea5051)](https://github.com/okeokke/asd_job3/blob/cea50512fd86e8bedde2384bb6328355379badca/Praktikum03/MahasiswaDemo07.java)  
 ![Percobaan 1](P1.png)
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
@@ -112,7 +112,7 @@ Tetapi secara konsep/desain, objek adalah representasi entitas, dan lebih baik m
 ---
 
 ## Percobaan 2  
-[**MahasiswaDemo07.java**](/asd_job3/Praktikum03/MahasiswaDemo07.java)
+[**MahasiswaDemo07.java (commit 3392dcf)**](https://github.com/okeokke/asd_job3/blob/3392dcffd69811cecf515fa0c2e51d619ebce77e/Praktikum03/MahasiswaDemo07.java)
 ![Percobaan 2](P2.png)
 
    
@@ -132,6 +132,10 @@ myArrayOfMahasiswa [0].ipk = (float) 3.75;
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
+1. [**Mahasiswa07.java**](/asd_job3/Praktikum03/Mahasiswa07.java)  
+[**MahasiswaDemo07.java**](/asd_job3/Praktikum03/MahasiswaDemo07.java)  
+![Percobaan 2 Nomor 1](P2N1.png)
+2. Program mencoba mengakses indeks-0 dari array `myArrayOfMahasiswa` ber-tipe-data objek `Mahasiswa07`, tetapi, indeks-0 tersebut masih kosong/null, belum di-instansiasi/di-isi oleh objek yang dibutuhkan (objek `Mahasiswa07`), menyebabkan error `NullPointerException`.  
   
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)

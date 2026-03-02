@@ -19,15 +19,11 @@ public class MahasiswaDemo07 {
       System.out.println("-----------------------------------");
     }
 
-    System.out.println("=================================");
+    System.out.println("-----------------------------------");
 
     for (int i = 0; i < arrayOfMahasiswa.length; i++) {
-      System.out.println("Data mahasiswa ke-" + (i+1));
-      System.out.println("NIM\t: "+arrayOfMahasiswa[i].nim);
-      System.out.println("Nama\t: "+arrayOfMahasiswa[i].nama);
-      System.out.println("Kelas\t: "+arrayOfMahasiswa[i].kelas);
-      System.out.println("IPK\t: "+arrayOfMahasiswa[i].ipk);
-      System.out.println("-----------------------------------");
+      arrayOfMahasiswa[i].cetakInfo(arrayOfMahasiswa, i);
     }
+    sc.close();
   }
 }
