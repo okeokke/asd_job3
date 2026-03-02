@@ -143,6 +143,11 @@ myArrayOfMahasiswa [0].ipk = (float) 3.75;
 ---
 
 ## Percobaan 3  
+[**MatakuliahDemo07.java**](Praktikum03/MatakuliahDemo07.java)
+Percobaan 3 pada step 3 :
+![alt text](P3_a.png)
+Percobaan 3 pada step 4 : 
+![alt text](P3.png)
   
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
