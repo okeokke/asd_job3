@@ -48,6 +48,25 @@ public class DosenDemo07 {
       String jk = dosen.jenisKelamin ? "Laki-laki" : "Perempuan";
       System.out.printf("%-20s %-20s %-15s %-5d\n", dosen.kode, dosen.nama, jk, dosen.usia);
     }
+
+    System.out.println("\nAnalisis Data Dosen:");
+    DataDosen07.dataSemuaDosen07(arrayOfDosen07);
+    System.out.println("-----------------------------------");
+
+    System.out.println("Jumlah Dosen Per Jenis Kelamin:");
+    DataDosen07.jumlahDosenPerJeniskelamin07(arrayOfDosen07);
+    System.out.println("-----------------------------------");
+
+    System.out.println("Rerata Usia Dosen Per Jenis Kelamin:");
+    DataDosen07.rerataUsiaDosenPerJenisKelamin07(arrayOfDosen07);
+    System.out.println("-----------------------------------");
+    
+    System.out.println("Dosen Paling Tua dan Muda:");
+    DataDosen07 infoDosenPalingTua = new DataDosen07();
+    infoDosenPalingTua.infoDosenPalingTua07(arrayOfDosen07);
+    DataDosen07 infoDosenPalingMuda = new DataDosen07();
+    infoDosenPalingMuda.infoDosenPalingMuda07(arrayOfDosen07);
+    System.out.println("-----------------------------------");
     sc.close();
   }
 }

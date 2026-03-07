@@ -32,7 +32,7 @@ Kemudian buatlah class `DosenDemo<NoPresensi>` untuk proses input dan menampilka
 
 ### JAWABAN_TUGAS_1  
 [**Dosen07.java**](/asd_job3/Dosen07.java)  
-[**DosenDemo07.java**](/asd_job3/DosenDemo07.java)  
+[**DosenDemo07.java (commit 9b33aa9, terdapat update untuk commit selanjutnya di tugas 2)**](https://github.com/okeokke/asd_job3/commit/9b33aa95ea13145443166d516ef1922cd34059fd#diff-6e794f8951a6349167d0cedf2ff5b2000e6c8b71fd5e53a0f1730c53d7cc49a4)  
   
   Contoh Output :   
   ![alt text](T1.png)  
@@ -53,9 +53,17 @@ e. `infoDosenPalingMuda(Dosen[] arrayofDosen)` untuk menampilkan data dosen pali
 Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
 
 
-### JAWABAN_TUGAS_2
+### JAWABAN_TUGAS_2  
+[**DosenDemo07.java**](/asd_job3/DosenDemo07.java)  
+[**DataDosen07.java**](/asd_job3/DataDosen07.java)  
+log output program juga bisa diakses di :
+[https://enjoys.rocks/?36cceb697e0f1bf4#Ey78e3SkFGw1XU4jLNRqkm51MEvgVPNrETiCca5S6JTG](https://enjoys.rocks/?36cceb697e0f1bf4#Ey78e3SkFGw1XU4jLNRqkm51MEvgVPNrETiCca5S6JTG)  
+dengan password : `abil1f07`
 
-
+Contoh input :  
+![alt text](T2_Input.png)
+Contoh Output :  
+![alt text](T2_Output.png)
 ---  
 
 # Daftar_Percobaan
