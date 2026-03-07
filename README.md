@@ -143,11 +143,12 @@ myArrayOfMahasiswa [0].ipk = (float) 3.75;
 ---
 
 ## Percobaan 3  
-[**MatakuliahDemo07.java**](Praktikum03/MatakuliahDemo07.java)
-Percobaan 3 pada step 3 :
-![alt text](P3_a.png)
-Percobaan 3 pada step 4 : 
-![alt text](P3.png)
+[**Matakuliah07.java | Commit Awal (24b8847)**](https://github.com/okeokke/asd_job3/commit/24b88476149aa30c19e4668054eb7f9e83c8b906#diff-ac9ed9e1c5d02ed1926d7f57cf4ed57b54c0060c8a60ebe7fa25d98fc2aecdc9)  
+[**MatakuliahDemo07.java | Commit Awal (24b8847)**](https://github.com/okeokke/asd_job3/commit/24b88476149aa30c19e4668054eb7f9e83c8b906#diff-1af6b510ebbf5f56687e2790e9be8e3d3c20f17f6c1ad75cb6f338fe00c42076)  
+Percobaan 3 pada step 3 :  
+![alt text](P3_a.png)  
+Percobaan 3 pada step 4 :   
+![alt text](P3.png)  
   
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
@@ -161,6 +162,95 @@ Percobaan 3 pada step 4 :
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
+1. Ya, contohnya ada pada jobsheet sebelumnya (jobsheet 2) pada file [Dosen07.java / Jobsheet 2](https://github.com/okeokke/asd-job2-smt2/blob/main/Dosen07.java), dengan satu konstruktor tanpa parameter, dan satu konstruktor berparameter.
+```java
+public class Dosen07 {
+  String idDosen;
+  String nama;
+  boolean statusAktif;
+  int tahunBergabung;
+  String bidangKeahlian;
+
+  public Dosen07() {
+  }
+
+  public Dosen07(String idDosen, String nama, boolean statusAktif, int tahunBergabung, String bidangKeahlian) {
+    this.idDosen=idDosen;
+    this.nama=nama;
+    this.statusAktif=statusAktif;
+    this.tahunBergabung=tahunBergabung;
+    this.bidangKeahlian=bidangKeahlian;
+  }
+  ...
+  ...
+  ...
+```
+2. (2, 3, & 4)  
+Contoh output :  
+![alt text](P3_N234.png)  
+  
+[**Matakuliah07.java**](Praktikum03/Matakuliah07.java) :   
+```java
+.....
+.....
+
+  public static Matakuliah07 tambahData(Scanner sc) {
+    String kode, nama;
+    int sks, jumlahJam;
+    String dummy;
+    System.out.print("Kode \t: ");
+    kode = sc.nextLine();
+    System.out.print("Nama \t: ");
+    nama = sc.nextLine();
+    System.out.print("SKS \t: ");
+    dummy = sc.nextLine();
+    sks = Integer.parseInt(dummy);
+    System.out.print("Jumlah Jam : ");
+    dummy = sc.nextLine();
+    jumlahJam = Integer.parseInt(dummy);
+
+    return new Matakuliah07(kode, nama, sks, jumlahJam);
+  }
+
+  public void cetakInfo() {
+    System.out.println("Kode \t: "+this.kode);
+    System.out.println("Nama \t: "+this.nama);
+    System.out.println("SKS \t: "+this.sks);
+    System.out.println("Jumlah Jam : "+this.jumlahJam);
+  }
+  ...
+  ...
+
+```
+[**MatakuliahDemo07.java**](Praktikum03/MatakuliahDemo07.java) :   
+```java
+
+...
+...
+
+    System.out.print("Masukkan jumlah Matakuliah : ");
+    int jmlMK = Integer.parseInt(sc.nextLine());
+
+    Matakuliah07[] arrayOfMatakuliah07 = new Matakuliah07[jmlMK];
+
+    for (int i = 0; i < arrayOfMatakuliah07.length; i++) {
+      System.out.println("Masukkan data Matakuliah ke-"+(i+1));
+      arrayOfMatakuliah07[i] = Matakuliah07.tambahData(sc);
+      System.out.println("------------------------------");
+    }
+
+    System.out.println("\n===============================\n");
+    
+    for (int i = 0; i < arrayOfMatakuliah07.length; i++) {
+      System.out.println("Data Matakuliah ke-"+(i+1));
+      arrayOfMatakuliah07[i].cetakInfo();
+      System.out.println("----------------------------------------");
+    }
+
+    ...
+    ...
+
+```
 
 
 
