@@ -30,8 +30,12 @@ dengan methode constructor sebagai berikut;
 ```
 Kemudian buatlah class `DosenDemo<NoPresensi>` untuk proses input dan menampilkan data beberapa dosen. Gunakan looping dengan **`FOR`** untuk pembuatan **`array of object`**. Gunakan looping dengan **`FOREACH`** untuk menampilkan data ke layar.
 
-### JAWABAN_TUGAS_1
+### JAWABAN_TUGAS_1  
+[**Dosen07.java**](/asd_job3/Dosen07.java)  
+[**DosenDemo07.java**](/asd_job3/DosenDemo07.java)  
   
+  Contoh Output :   
+  ![alt text](T1.png)  
 
 
 ---  
