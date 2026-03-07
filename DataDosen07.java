@@ -4,7 +4,7 @@ public class DataDosen07 {
   public static void dataSemuaDosen07(Dosen07[] arrayOfDosen07) {
     System.out.println("Data Semua Dosen:");
     for (Dosen07 dosen : arrayOfDosen07) {
-      String jenisKelamin = dosen.jenisKelamin ? "Perempuan" : "Laki-Laki";
+      String jenisKelamin = dosen.jenisKelamin ? "Laki-laki" : "Perempuan";
       System.out.println("Kode: " + dosen.kode);
       System.out.println("Nama: " + dosen.nama);
       System.out.println("Jenis Kelamin: " + jenisKelamin);
@@ -59,7 +59,7 @@ public class DataDosen07 {
     System.out.println("\nDosen Paling Tua:");
     System.out.println("Kode\t\t: " + tua.kode);
     System.out.println("Nama\t\t: " + tua.nama);
-    System.out.println("Jenis Kelamin : " + jk);
+    System.out.println("Jenis Kelamin\t: " + jk);
     System.out.println("Usia\t\t: " + tua.usia);
   }
 
@@ -72,7 +72,7 @@ public class DataDosen07 {
     System.out.println("\nDosen Paling Muda:");
     System.out.println("Kode\t\t: " + muda.kode);
     System.out.println("Nama\t\t: " + muda.nama);
-    System.out.println("Jenis Kelamin : " + jk);
+    System.out.println("Jenis Kelamin\t: " + jk);
     System.out.println("Usia\t\t: " + muda.usia);
   }
 }

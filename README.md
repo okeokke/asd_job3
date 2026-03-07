@@ -31,7 +31,7 @@ dengan methode constructor sebagai berikut;
 Kemudian buatlah class `DosenDemo<NoPresensi>` untuk proses input dan menampilkan data beberapa dosen. Gunakan looping dengan **`FOR`** untuk pembuatan **`array of object`**. Gunakan looping dengan **`FOREACH`** untuk menampilkan data ke layar.
 
 ### JAWABAN_TUGAS_1  
-[**Dosen07.java**](/asd_job3/Dosen07.java)  
+[**Dosen07.java**](Dosen07.java)  
 [**DosenDemo07.java (commit 9b33aa9, terdapat update untuk commit selanjutnya di tugas 2)**](https://github.com/okeokke/asd_job3/commit/9b33aa95ea13145443166d516ef1922cd34059fd#diff-6e794f8951a6349167d0cedf2ff5b2000e6c8b71fd5e53a0f1730c53d7cc49a4)  
   
   Contoh Output :   
@@ -54,10 +54,10 @@ Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
 
 
 ### JAWABAN_TUGAS_2  
-[**DosenDemo07.java**](/asd_job3/DosenDemo07.java)  
-[**DataDosen07.java**](/asd_job3/DataDosen07.java)  
+[**DosenDemo07.java**](DosenDemo07.java)  
+[**DataDosen07.java**](DataDosen07.java)  
 log output program juga bisa diakses di :
-[https://enjoys.rocks/?36cceb697e0f1bf4#Ey78e3SkFGw1XU4jLNRqkm51MEvgVPNrETiCca5S6JTG](https://enjoys.rocks/?36cceb697e0f1bf4#Ey78e3SkFGw1XU4jLNRqkm51MEvgVPNrETiCca5S6JTG)  
+[https://enjoys.rocks/?3f4fbb95d0bb98c3#5oajs9L5bKnXpwcEmas8bYqdFwT2woQreb6yKL4NERMK](https://enjoys.rocks/?3f4fbb95d0bb98c3#5oajs9L5bKnXpwcEmas8bYqdFwT2woQreb6yKL4NERMK)  
 dengan password : `abil1f07`
 
 Contoh input :  
@@ -144,8 +144,8 @@ myArrayOfMahasiswa [0].ipk = (float) 3.75;
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
-1. [**Mahasiswa07.java**](/asd_job3/Praktikum03/Mahasiswa07.java)  
-[**MahasiswaDemo07.java**](/asd_job3/Praktikum03/MahasiswaDemo07.java)  
+1. [**Mahasiswa07.java**](Praktikum03/Mahasiswa07.java)  
+[**MahasiswaDemo07.java**](Praktikum03/MahasiswaDemo07.java)  
 ![Percobaan 2 Nomor 1](P2N1.png)
 2. Program mencoba mengakses indeks-0 dari array `myArrayOfMahasiswa` ber-tipe-data objek `Mahasiswa07`, tetapi, indeks-0 tersebut masih kosong/null, belum di-instansiasi/di-isi oleh objek yang dibutuhkan (objek `Mahasiswa07`), menyebabkan error `NullPointerException`.  
   
